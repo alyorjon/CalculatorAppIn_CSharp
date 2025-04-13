@@ -5,3 +5,8 @@ int secondInput=int.Parse(Console.ReadLine());
 Console.WriteLine("Enter operator (+, -, *, /): ");
 string operatorInput=Console.ReadLine();    
 Console.WriteLine(firstInput+secondInput);
+Console.WriteLine(firstInput-secondInput);
+Console.WriteLine(firstInput*secondInput);
+Console.WriteLine(firstInput/secondInput);
+Console.WriteLine(firstInput%secondInput);
+// Console.WriteLine(firstInput+secondInput);
